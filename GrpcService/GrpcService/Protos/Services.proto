@@ -1,0 +1,90 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService.Protos";
+
+
+service Service{
+	rpc AddComment (AddCommentRequest) returns (AddCommentResponse);
+	rpc UpdateComment (UpdateCommentRequest) returns (UpdateCommentResponse);
+	rpc GetCommentById (GetCommentByIdRequest) returns (GetCommentByIdResponse);
+	rpc AddPost (AddPostRequest) returns (AddPostResponse);
+	rpc UpdatePost (UpdatePostRequest) returns (UpdatePostResponse);
+	rpc DeletePost (DeletePostRequest) returns (DeletePostResponse);
+	rpc GetPostById (GetPostByIdRequest) returns (GetPostByIdResponse);
+}
+
+
+message AddCommentRequest{
+	string text = 1;
+	int32 postid = 2;
+}
+
+message AddCommentResponse{
+	bool bResult = 1;
+}
+
+
+message UpdateCommentRequest{
+	int32 id = 1;
+	string text = 2;
+	int32 postid = 3;
+}
+
+message UpdateCommentResponse{
+	int32 id = 1;
+
+}
+
+
+message GetCommentByIdRequest{
+	int32 id = 1;
+}
+
+message GetCommentByIdResponse{
+	int32 id = 1;
+	string text = 2;
+	int32 postid = 3;
+}
+
+
+message AddPostRequest{
+	string description = 1;
+	string domain = 2;
+	string date = 3;
+}
+
+message AddPostResponse{
+	bool bResult = 1;
+}
+
+
+message UpdatePostRequest{
+	int32 id = 1;
+	string description = 2;
+	string domain = 3;
+	string date = 4;
+}
+
+message UpdatePostResponse{
+	int32 id = 1;
+}
+
+
+message DeletePostRequest{
+	int32 id = 1;
+}
+
+message DeletePostResponse{
+
+}
+
+message GetPostByIdRequest{
+	int32 id = 1;
+}
+
+message GetPostByIdResponse{
+	int32 id = 1;
+	string description = 2;
+	string domain = 3;
+	string date = 4;
+}

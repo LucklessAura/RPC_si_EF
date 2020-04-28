@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService.Protos";
+
+
+service Service{
+	rpc AddComment (AddCommentRequest) returns (AddCommentResponse);
+	rpc UpdateComment (UpdateCommentRequest) returns (UpdateCommentResponse);
+}
+
+
+message AddCommentRequest{
+	string text = 2;
+	int32 postid = 3;
+}
+
+message AddCommentResponse{
+	bool bResult = 1;
+}
+
+
+message UpdateCommentRequest{
+	int32 id = 1;
+}
+
+message UpdateCommentResponse{
+	int32 id = 1;
+}

@@ -1,0 +1,17 @@
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.exe
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.deps.json
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.json
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.dev.json
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.dll
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\client.pdb
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.csprojAssemblyReference.cache
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.AssemblyInfoInputs.cache
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.AssemblyInfo.cs
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.dll
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.pdb
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dotnet\advanced\9\client\client\client\obj\Debug\netcoreapp3.1\client.csproj.CopyComplete
+D:\dotnet\advanced\9\client\client\client\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
